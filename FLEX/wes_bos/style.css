@@ -1,0 +1,22 @@
+.box {
+	color: white;
+	font-size: 100px;
+	text-align: center;
+	text-shadow: 4px 4px 0 rgba(0,0,0,1);
+	padding: 10px;
+}
+
+.box1{ background: #1abc9c; }
+.box2{ background: #3498db; }
+.box3{ background: black; }
+.box4{ background: red; }
+.box5{ background: green; }
+.box6{ background: blue; }
+.box7{ background: gray; }
+.box8{ background: pink; }
+.box9{ background: orange; }
+.box10{ background: red; }
+
+.container {
+	
+}

@@ -1,0 +1,308 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 1, ../sass/_helper.scss */
+.margin-top {
+  margin-top: 40px;
+}
+
+/* line 1, ../sass/_main.scss */
+.large-container {
+  width: 1300px;
+}
+
+/* line 1, ../sass/_header.scss */
+.logo-img {
+  margin-top: -10px;
+}
+
+/* line 5, ../sass/_header.scss */
+.nav-form-width {
+  width: 660px !important;
+  margin-top: 5px;
+}
+
+/* line 10, ../sass/_header.scss */
+.right-nav-list {
+  width: 435px;
+  margin-top: -7px;
+}
+/* line 14, ../sass/_header.scss */
+.right-nav-list > .listitem {
+  margin-right: -25px;
+  margin-top: -5px;
+}
+
+/* line 20, ../sass/_header.scss */
+#navbar-links a:hover {
+  background: #fff;
+}
+
+/* line 24, ../sass/_header.scss */
+.inner-addon {
+  position: relative;
+}
+
+/* line 28, ../sass/_header.scss */
+.inner-addon .formglyphicon {
+  position: absolute;
+  padding: 14px;
+  pointer-events: none;
+  margin-left: 12px;
+}
+
+/* line 35, ../sass/_header.scss */
+.left-addon .formglyphicon {
+  left: 0px;
+}
+
+/* line 36, ../sass/_header.scss */
+.right-addon .formglyphicon {
+  right: 0px;
+}
+
+/* line 38, ../sass/_header.scss */
+.left-addon input {
+  padding-left: 30px;
+}
+
+/* line 39, ../sass/_header.scss */
+.right-addon input {
+  padding-right: 30px;
+}
+
+/* line 1, ../sass/_menu.scss */
+.menu-list {
+  list-style: none;
+  margin-top: -40px;
+  margin-left: 30px;
+}
+/* line 6, ../sass/_menu.scss */
+.menu-list > .menu-list-item {
+  font-size: 1em;
+  font-color: #000;
+  text-transform: uppercase;
+  margin-right: 25px;
+}
+/* line 12, ../sass/_menu.scss */
+.menu-list > .menu-list-item > .menulistitemlink {
+  color: #000;
+}
+/* line 15, ../sass/_menu.scss */
+.menu-list > .menu-list-item > .menulistitemlink:hover {
+  background: #fff;
+}
+
+/* line 22, ../sass/_menu.scss */
+.menu-item-link-glyp {
+  margin-right: 5px;
+}
+
+/* line 1, ../sass/_banner.scss */
+.banner {
+  height: 470px;
+  background-image: url("../images/transitional-entry.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+}
+
+/* line 9, ../sass/_banner.scss */
+.banner-title {
+  font-size: 50px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 140px;
+}
+
+/* line 16, ../sass/_banner.scss */
+.banner-area {
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* line 21, ../sass/_banner.scss */
+.banner-btn {
+  margin-left: 20px;
+  padding: 15px 40px 15px 40px;
+}
+
+/* line 1, ../sass/_dropdown-menu.scss */
+.dropdown-title {
+  font-size: 1.2em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #3d8901;
+}
+
+/* line 8, ../sass/_dropdown-menu.scss */
+.dropdown-subtitle {
+  font-size: 1em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 14, ../sass/_dropdown-menu.scss */
+.dropdown-link {
+  color: #000;
+}
+
+/* line 18, ../sass/_dropdown-menu.scss */
+.dropdown-item {
+  padding: 5px 0 5px 0;
+}
+
+/* line 22, ../sass/_dropdown-menu.scss */
+.second-menu {
+  margin: 0 -200px;
+}
+
+/* line 26, ../sass/_dropdown-menu.scss */
+.third-menu {
+  margin: 0 -445px;
+}
+
+/* line 30, ../sass/_dropdown-menu.scss */
+.fourth-menu {
+  margin: 0 -645px;
+}
+
+/* line 1, ../sass/_section.scss */
+.section-wrapper {
+  padding: 30px 10px 10px 10px;
+  text-align: center;
+}
+
+/* line 6, ../sass/_section.scss */
+.section-img {
+  width: 350;
+  height: 295;
+}
+
+/* line 11, ../sass/_section.scss */
+.section-subtitle {
+  font-weight: bold !important;
+}
+
+/* line 1, ../sass/_bathroom-lighting.scss */
+.main-wrapper {
+  width: 100%;
+  background-color: #f4f4f4;
+  min-height: 600px;
+  padding-top: 15px;
+}
+
+/* line 8, ../sass/_bathroom-lighting.scss */
+.main-container {
+  width: 1220px;
+  margin: 0 auto;
+  display: flex;
+}
+
+/* line 14, ../sass/_bathroom-lighting.scss */
+.sidebar {
+  background-color: #fff;
+  padding: 10px 0 10px 10px;
+  margin-right: 20px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.08);
+  flex: 1;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+/* line 25, ../sass/_bathroom-lighting.scss */
+.sidebar-section {
+  padding: 15px 0 25px 10px;
+  border-bottom: 1px solid #ddd;
+  flex: 1;
+}
+
+/* line 31, ../sass/_bathroom-lighting.scss */
+.sidebar-section-title {
+  font-weight: bold;
+}
+
+/* line 35, ../sass/_bathroom-lighting.scss */
+.sidebarlink {
+  color: #000;
+  font-size: 0.9em;
+}
+
+/* line 40, ../sass/_bathroom-lighting.scss */
+.sidebar-section-list {
+  margin-top: 20px;
+}
+
+/* line 44, ../sass/_bathroom-lighting.scss */
+.main-content {
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.08);
+  flex: 4;
+}

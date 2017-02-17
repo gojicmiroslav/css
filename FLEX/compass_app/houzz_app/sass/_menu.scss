@@ -1,0 +1,24 @@
+.menu-list {
+  list-style: none;
+  margin-top: -40px;
+  margin-left: 30px;
+
+  > .menu-list-item {
+    font-size: 1em;
+    font-color: #000;
+    text-transform: uppercase;
+    margin-right: 25px;
+
+    > .menulistitemlink {
+      color: #000;
+
+      &:hover {
+        background: #fff;
+      }
+    }
+  }
+}
+
+.menu-item-link-glyp {
+  margin-right: 5px;
+}

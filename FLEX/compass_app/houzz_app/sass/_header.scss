@@ -1,0 +1,39 @@
+.logo-img {
+  margin-top: -10px;
+}
+
+.nav-form-width {
+  width: 660px !important;
+  margin-top: 5px;
+}
+
+.right-nav-list {
+  width: 435px;
+  margin-top: -7px;
+
+  > .listitem {
+    margin-right: -25px;
+    margin-top: -5px;
+  }
+}
+
+#navbar-links a:hover{
+  background: #fff;
+}
+
+.inner-addon { 
+  position: relative; 
+}
+
+.inner-addon .formglyphicon {
+  position: absolute;
+  padding: 14px;
+  pointer-events: none;
+  margin-left: 12px;
+}
+
+.left-addon .formglyphicon  { left:  0px;}
+.right-addon .formglyphicon { right: 0px;}
+
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }

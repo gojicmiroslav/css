@@ -1,0 +1,26 @@
+/* Forms */
+
+#container {
+	width: 600px;
+	margin: 0 auto;
+}
+
+fieldset {
+	padding: 40px;
+	border: 1px solid #aaa;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea
+{
+	padding: 10px;
+	border: 1px solid #454545;
+	display: block;
+	width: 60%;
+	font-size: 14px;
+	color: #777;
+	font-family: Monaco, monospace;
+	text-transform: uppercase;
+}
